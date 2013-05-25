@@ -1,0 +1,20 @@
+{
+    "name": "jfsimon/askit",
+    "description": "A HTTP request to DB query mapper",
+    "require": {
+        "symfony/options-resolver": ">=2.1"
+    },
+    "authors": [{
+        "name": "Jean-François Simon",
+        "email": "contact@jfsimon.fr"
+    }],
+    "require-dev": {
+        "twig/twig": ">=1",
+        "doctrine/orm": ">=2.2.3,<2.4-dev",
+        "propel/propel1": ">=2.6",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Jfsimon\\Datagrid": "src/" }
+    }
+}
